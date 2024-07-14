@@ -1,0 +1,71 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(26, 70, 71);
+}
+h2{
+    color: rgb(216, 85, 8);
+    text-align: center;
+    font-size: 50px;
+    background-color: black;
+    padding: 20px;
+    margin: 0px;
+    font: bold;
+}
+.scoreBoard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 150px;
+    color: rgb(255, 238, 2);
+    gap:20px;
+    padding: 30px;
+
+}
+.score{
+    display:flex;
+    gap:100px;
+}
+#result,.score{
+    font-size: 30px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    flex-basis: 300px;
+}
+.choiceButtons{
+    display: flex;
+    gap:100px
+}
+#rock,#paper,#scissors{
+    font-size: 80px;
+    background-color: rgb(26, 70, 71);
+    padding: 0;
+}
+#rest{
+    font-size: 20px;
+    background-color: rgb(26, 70, 71);
+    padding: 0;
+}
+.restButton{
+    margin-top: 50px;
+}
+.selections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    font-size: 100px;
+    margin-bottom: 50px;
+}
+#gameStat{
+    font-size: 200px;
+    color: yellow;  
+}
